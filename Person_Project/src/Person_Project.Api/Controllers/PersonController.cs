@@ -17,7 +17,7 @@ namespace Person_Project.Api.Controllers
             _personService = personService;
         }
 
-        // GET api/values
+        // GET api/Persons
         [HttpGet]
         public JsonResult GetAll()
         {
